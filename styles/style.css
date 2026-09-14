@@ -67,6 +67,7 @@ ol {
   border: 1px solid #fff;
   padding-block: 6px;
   color: #fff;
+  font-size: 18px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   background-color: transparent;
@@ -86,6 +87,7 @@ ol {
 
   &:focus-visible {
     outline: 1px solid #fff;
+    outline-offset: 2px;
   }
 }
 
@@ -93,6 +95,7 @@ ol {
   display: flex;
   gap: 30px;
   padding-inline: 30px;
+  align-items: flex-end;
 }
 
 .content__details {
@@ -156,9 +159,7 @@ ol {
 }
 
 .content__card-link_current {
-  text-decoration: underline;
   background-color: #545050;
-  pointer-events: none;
 }
 
 .content__video-card {
@@ -204,10 +205,6 @@ ol {
   min-width: 194px;
   object-fit: contain;
   object-position: center top;
-}
-
-.result {
-  padding-top: 78px;
 }
 
 .result__video-container {
