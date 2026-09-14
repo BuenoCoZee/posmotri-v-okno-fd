@@ -101,7 +101,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 19px;
 }
 
 .title {
@@ -121,7 +121,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 100%;
+  width: 400px;
   height: 298px;
   overflow: auto;
 }
@@ -130,6 +130,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 100%;
 }
 
 .content__list-item {
@@ -164,8 +165,6 @@ ol {
 
 .content__video-card {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .content__video-card-description-container {
@@ -203,7 +202,8 @@ ol {
 .content__video-card-thumbnail {
   width: 100%;
   min-width: 194px;
-  object-fit: contain;
+  max-height: 103px;
+  object-fit: cover;
   object-position: center top;
 }
 
