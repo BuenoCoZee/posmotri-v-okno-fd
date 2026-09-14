@@ -1,0 +1,17 @@
+.result {
+  width: 100%;
+  max-width: 711px;
+  padding-top: 78px;
+}
+
+.result__video-container {
+  margin-bottom: 16px;
+  width: 711px;
+  height: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
