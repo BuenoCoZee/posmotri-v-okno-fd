@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -50,12 +53,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -90,6 +87,4 @@ ol {
   &:focus-visible {
     outline: 1px solid #fff;
   }
-
- 
 }

@@ -47,9 +47,9 @@
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   background-color: transparent;
-  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  appearance: none;
 
   &::placeholder {
     color: rgb(255 255 255 / 0.7);

@@ -1,10 +1,9 @@
 .result {
-  width: 100%;
-  max-width: 711px;
   padding-top: 78px;
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;

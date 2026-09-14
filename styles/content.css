@@ -1,7 +1,7 @@
 .content {
   display: flex;
   gap: 30px;
-  padding: 133px 30px 0 30px;
+  padding-inline: 30px;
 }
 
 .content__details {
@@ -23,6 +23,7 @@
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -37,9 +38,36 @@
   gap: 30px;
 }
 
+.content__list-item {
+  padding-inline: 3px;
+}
+
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    background-color: #545050;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #fff;
+  }
+}
+
+.content__card-link_current {
+  text-decoration: underline;
+  background-color: #545050;
+  pointer-events: none;
 }
 
 .content__video-card {
@@ -78,18 +106,11 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   line-clamp: 4;
- 
-
 }
 
 .content__video-card-thumbnail {
   width: 100%;
   min-width: 194px;
-  max-height: 100%;
   object-fit: contain;
   object-position: center top;
-}
-
-.more-button {
-  width: 100%;
 }
